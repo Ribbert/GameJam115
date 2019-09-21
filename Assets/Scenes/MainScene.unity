@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 16214423}
   - component: {fileID: 16214425}
   - component: {fileID: 16214426}
+  - component: {fileID: 16214428}
   - component: {fileID: 16214427}
   m_Layer: 0
   m_Name: ManBoi
@@ -261,6 +262,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &16214428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16214422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b52b3fa0897f143acd5ae2bdab045e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 519420028}
 --- !u!1 &84764992
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +424,7 @@ Transform:
   m_GameObject: {fileID: 315460249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3966.0874, y: 3966.0874, z: 3966.0874}
   m_Children:
   - {fileID: 1635200441}
   m_Father: {fileID: 0}
@@ -511,7 +525,6 @@ GameObject:
   - component: {fileID: 395870997}
   - component: {fileID: 395870996}
   - component: {fileID: 395870998}
-  - component: {fileID: 395870999}
   m_Layer: 0
   m_Name: AptEnter
   m_TagString: Untagged
@@ -607,18 +620,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.095399275, y: 0.09946522}
   m_EdgeRadius: 0
---- !u!114 &395870999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395870995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b52b3fa0897f143acd5ae2bdab045e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &400843623
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +920,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -108, y: 0}
+  m_AnchoredPosition: {x: -100, y: 0}
   m_SizeDelta: {x: 10.8, y: 8.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1055352249
